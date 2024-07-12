@@ -1,0 +1,40 @@
+.hero-section .navbar {
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+    /* border: 2px solid red; */
+    padding: 4px;
+    border: 2px solid #272727;
+    border-radius: 54px;
+}
+
+.hero-section .navbar .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 35px; */
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+
+.hero-section .navbar .nav-menu .menu-items a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.hero-section .navbar .nav-menu .menu-items {
+    line-height: 150%;
+    padding: 15px 40px;
+    border-radius: 50px;
+}
+
+
+
+.hero-section .navbar .nav-menu .menu-items:hover {
+    background: var(--gradient-02);
+    cursor: pointer
+}
+
+.hero-section .navbar .nav-menu .menu-items.active {
+    background: var(--gradient);
+}

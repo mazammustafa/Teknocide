@@ -1,0 +1,21 @@
+.hero-section {
+    padding: 40px 0 120px;
+}
+
+.hero-section .content {
+    padding: 140px 0 20px 0;
+}
+
+#footer {
+    padding-top: 120px;
+}
+
+@media screen and (max-width: 520px) {
+    .hero-section .content {
+        padding: 0px 0 20px 0;
+    }
+
+    #footer {
+        padding-top: 30px;
+    }
+}

@@ -1,0 +1,172 @@
+/* footer */
+.footer {
+    padding: 0 0 40px;
+}
+
+.footer .logo {
+    margin-bottom: 80px;
+}
+
+.footer .contact-us {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer .contact-us .let-talk {
+    width: 345px;
+    /* border: 2px solid red; */
+}
+
+.footer .contact-us .let-talk p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: var(--gradient-purple-1);
+    line-height: 190%;
+}
+
+.footer .contact-us .let-talk h1 {
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 54px;
+    font-weight: 900;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    line-height: 150%;
+}
+
+.footer .contact-us form {
+    width: 676px;
+    /* border: 2px solid green; */
+}
+
+.footer .contact-us form .names {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer .contact-us form .names input {
+    width: 270px;
+    background: transparent;
+    padding: 10px;
+    text-align: left !important;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+}
+
+.footer .contact-us form .names input:focus {
+    border-bottom: 2px solid var(--heading-purple);
+}
+
+.footer .contact-us form .names img {
+    width: 68px;
+}
+
+.footer .contact-us form .names a img:hover {
+    transform: rotate(45deg);
+    background: #9E5CD1;
+    border-radius: 50%;
+}
+
+.footer .social-icons {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .social-icons .icons {
+    display: flex;
+    gap: 25px;
+}
+
+.footer .social-icons .icons .icon {
+    width: 53px;
+    height: 53px;
+}
+
+.footer .social-icons .icons .icon:hover {
+    background: var(--gradient);
+    transition: .2s ease-in;
+    border-radius: 50% !important;
+}
+
+.footer .social-icons p {
+    color: var(--white);
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+@media screen and (max-width: 520px) {
+    .footer {
+        padding: 0 0 15px;
+    }
+
+    .footer .logo {
+        margin: auto;
+        padding-bottom: 30px;
+    }
+
+    .footer .contact-us .let-talk {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer .contact-us form .names {
+        flex-direction: column;
+        max-width: 100%;
+        width: 100%;
+        /* border: 2px solid red; */
+        /* margin: auto; */
+        gap: 25px;
+        align-items: end;
+    }
+
+    .footer .contact-us {
+        flex-direction: column;
+        /* justify-content: center; */
+        /* gap: 20px; */
+        /* align-items: baseline; */
+    }
+
+    .footer .contact-us .let-talk h1 {
+        font-size: 34px;
+    }
+
+    .footer .contact-us form .names input {
+        width: 100%;
+    }
+
+    .footer .social-icons {
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer .contact-us form {
+        width: 100%;
+        /* border: 2px solid green; */
+    }
+
+    .footer .contact-us form .names img {
+        width: 45px;
+    }
+
+    .footer .social-icons .icons {
+        display: flex;
+        gap: 23px;
+    }
+
+    .footer .social-icons .icons .icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .footer .social-icons p {
+        font-size: 14px;
+    }
+}

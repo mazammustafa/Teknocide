@@ -1,0 +1,36 @@
+.hero-section {
+    padding: 40px 0 0;
+}
+
+.hero-section .content {
+    padding: 120px 0 20px 0;
+}
+
+#marketingRequirments {
+    padding-bottom: 120px;
+}
+
+#marketingRequirments .content {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media screen and (max-width: 520px) {
+    .hero-section .content {
+        padding: 0;
+    }
+
+    #ourServices .heading {
+        display: none;
+    }
+
+    #ourServices .ourServices{
+        padding: 0;
+    }
+
+    #marketingRequirments {
+        padding-bottom: 30px;
+    }
+}

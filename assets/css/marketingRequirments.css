@@ -1,0 +1,25 @@
+.martketing-requirements {
+    padding: 120px 0;
+}
+
+.martketing-requirements .content {
+    display: grid;
+    place-items: center;
+    gap: 40px;
+}
+
+.martketing-requirements .content h1 {
+    max-width: 879px;
+    width: 100%;
+    margin: auto;
+}
+
+@media screen and (max-width: 520px) {
+    .martketing-requirements {
+        padding: 30px 0;
+    }
+
+    .martketing-requirements .content {
+        gap: 30px;
+    }
+}

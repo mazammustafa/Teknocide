@@ -1,0 +1,31 @@
+<header id="header">
+    <nav class="navbar animate__animated animate__shakeX">
+        <ul class="nav-menu">
+            <li class="menu-items active"><a href="../index.html">Home</a></li>
+            <li class="menu-items "><a href="../aboutUsPage.html">Company</a></li>
+            <li class="menu-items "><a href="../servicePage.html">Services</a></li>
+            <li class="menu-items "><a href="../contactUsPage.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="hamburgar">
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <ul class="nav-menu">
+                <li class="menu-items active"><a href="../index.html">Home</a></li>
+                <li class="menu-items "><a href="../aboutUsPage.html">Company</a></li>
+                <li class="menu-items "><a href="../servicePage.html">Services</a></li>
+                <li class="menu-items "><a href="../contactUsPage.html">Contact Us</a></li>
+            </ul>
+            <!-- <button class="contactUs-btn content" id="">Contact Us</button> -->
+        </div>
+        <button class="btn openbtn" onclick="openNav()">☰ MENU</button>
+    </div>
+</header>
+<script>
+    function openNav() {
+        document.getElementById("mySidepanel").style.width = "250px";
+    }
+    function closeNav() {
+        document.getElementById("mySidepanel").style.width = "0";
+    }
+</script>

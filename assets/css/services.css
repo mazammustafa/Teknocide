@@ -1,0 +1,91 @@
+.our-services {
+    padding: 0 0 120px;
+    position: relative;
+}
+
+.our-services::before {
+    content: '';
+    background: url('/assets/images/Ellipse\ 3.png') no-repeat center/contain;
+    display: block;
+    width: 490px;
+    height: 490px;
+    position: absolute;
+    top: 0;
+    left: -90px;
+}
+
+.our-services .sub-text {
+    margin-top: 40px;
+}
+
+
+
+.our-services .serivces {
+    margin-top: 60px;
+}
+
+.our-services .serivces .serivce {
+    border-top: 1px solid rgba(255, 255, 255, .5);
+    padding: 50px 0;
+    color: rgba(255, 255, 255, .5);
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 800;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    line-height: 150%;
+    position: relative;
+}
+
+.our-services .serivces .serivce:hover {
+    cursor: pointer;
+    color: #A35FD7;
+}
+
+.our-services .serivces .serivce .serivces-img {
+    max-width: 500px;
+    width: 100%;
+    position: absolute;
+    right: -20px;
+    top: -30%;
+    z-index: 999;
+    /* transition: width 2s ease-in-out; */
+    transition-duration: 1s;
+}
+
+.our-services .serivces .serivce .serivces-img>img {
+    display: none;
+}
+
+.our-services .serivces .serivce:hover .serivces-img>img {
+    display: block;
+    filter: grayscale(0%);
+}
+
+
+@media screen and (max-width: 520px) {
+    .our-services {
+        padding: 0 0 30px;
+    }
+
+    .our-services .sub-text {
+        margin-top: 0;
+    }
+
+    .our-services::before {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .our-services .serivces .serivce .serivces-img {
+        max-width: 50%;
+        width: 100%;
+        right: 0;
+        top: -23px;
+    }
+
+    .our-services .serivces .serivce {
+        padding: 15px 0;
+        font-size: 18px;
+    }
+}

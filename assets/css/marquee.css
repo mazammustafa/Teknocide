@@ -1,0 +1,41 @@
+.marquee {
+    padding: 120px 0;
+
+    overflow: hidden;
+}
+
+.marquee-left {
+    color: var(--white);
+    opacity: .5;
+    font-size: 48px;
+    transform: rotate(5deg);
+    overflow: hidden;
+}
+
+.marquee-right {
+    color: var(--white);
+    opacity: .5;
+    font-size: 48px;
+    transform: rotate(-5deg);
+    overflow: hidden;
+}
+
+marquee span {
+    font-size: 64px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+}
+
+.marquee-right:nth-child(2n) {
+    color: var(--gradient-purple-1);
+}
+
+@media screen and (max-width: 520px) {
+    .marquee {
+        padding: 30px 0;
+    }
+
+    marquee span {
+        font-size: 33px;
+    }
+}

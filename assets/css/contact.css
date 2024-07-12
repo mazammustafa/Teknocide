@@ -1,0 +1,87 @@
+.contact-form {
+    padding: 120px 0;
+}
+
+.contact-form form {
+    max-width: 1040px;
+    margin: auto;
+    /* border: 2px solid red; */
+    text-align: left !important;
+    width: 100%;
+}
+
+.contact-form form .names {
+    margin-bottom: 80px;
+}
+
+.contact-form form .names,
+.contact-form form .contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form form .names input,
+.contact-form form .contact input {
+    width: 485px;
+    background: transparent;
+    padding: 10PX;
+    text-align: left !important;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+
+
+}
+
+.contact-form form .names input:focus,
+.contact-form form .contact input:focus,
+.contact-form form textarea:focus {
+    border-bottom: 2px solid var(--heading-purple);
+}
+
+.contact-form form textarea {
+    width: 100%;
+    background: transparent;
+    padding: 10PX;
+    text-align: left !important;
+    margin: 80px 0 50px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    resize: none;
+}
+
+
+.contact-form form .submit-btn {
+    width: 100%;
+    padding: 20px 40px;
+}
+
+@media screen and (max-width: 520px) {
+
+    .contact-form {
+        padding: 30px 0;
+    }
+
+    .contact-form form {
+        max-width: 100%;
+    }
+
+    .contact-form form .names,
+    .contact-form form .contact {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .contact-form form .names {
+        margin-bottom: 25px;
+    }
+
+    .contact-form form textarea {
+        margin: 20px 0;
+    }
+
+
+}
